@@ -1,0 +1,6 @@
+1- Pedir ao usuario o tamanho da altura.
+2- Continuar com a pergunta até que a altura esteja entre 1 e 8.
+3- Um laço para iterar até a altura inserida pelo usuario.
+4- Outro laço que irá acrescentar espaços em branco onde não haverá o sinal.
+5- Uma condicional que vai determinar em cada iteração se há necessidade de espaço ou #
+6- Impressão dos espaços e das #.

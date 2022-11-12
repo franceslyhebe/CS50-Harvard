@@ -1,0 +1,24 @@
+sort1 uses:
+Bubble Sort
+
+How do you know?:
+Takes slightly less amount of time when running on sorted texts compared to sort3
+Leva um pouco menos de tempo ao executar em textos classificados em comparação com sort3
+
+sort2 uses:
+Merge Sort
+
+How do you know?:
+Is the fastest among all.
+É o mais rápido entre todos.
+
+sort3 uses:
+Selection Sort
+
+How do you know?:
+Takes lot of time even when running on sorted text compared to sort1
+Leva muito tempo mesmo quando executado em texto classificado em comparação com sort1
+
+
+In the best case, which would be a sorted or nearly sorted set of data, Bubble Sort performs the best since it has a time complexity of Omega(n)
+Na melhor das hipóteses, que seria um conjunto de dados ordenados ou quase ordenados, o Bubble Sort tem o melhor desempenho, pois tem uma complexidade de tempo de Omega(n)

@@ -1,0 +1,113 @@
+:root {
+    --background: #282a36;
+    --Line: #44475a;
+    --Foreground: #f8f8f2;
+    --Comment: #6272a4;
+    --Cyan:	#8be9fd;
+    --Green: #50fa7b;
+    --Orange: #ffb86c;
+    --Pink: #ff79c6;
+    --Purple: #bd93f9;
+    --Red: #ff5555;
+    --Yellow: #f1fa8c;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--background);
+}
+
+.fs-4{
+    color: #f8f9fa;
+    font-weight: bold;
+}
+
+.nav-link{
+    font-weight: bold;
+    color: #AEB2C1;
+}
+
+.nav-link:hover{
+    color: var(--Pink);
+}
+
+.col-lg-6 h1{
+    color: var(--Cyan);
+}
+
+.col-lg-6 h2{
+    position: relative;
+    font-size: 50px;
+    color: var(--background);
+
+    text-transform: uppercase;
+}
+.col-lg-6 h2::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: var(--Yellow);
+    -webkit-text-stroke: 1px var(--Yellow);
+    border-right: 2px solid var(--Yellow);
+    overflow: hidden;
+    animation: animate 10s ease ;
+}
+.pb-2{
+    color: var(--Purple);
+}
+
+.lead{
+    color: var(--Purple);
+}
+
+.row{
+    justify-content: center;
+}
+.card{
+    margin-right: 5px;
+}
+/* Inicio card da page Professional */
+.container-edu{
+    background-color: var(--background);
+}
+.card-edu{
+    padding:10px;
+    border:none;
+    cursor:pointer;
+}
+
+.card-edu:hover{
+    background-color:#eee;
+}
+
+.card-edu span{
+    color: var(--Cyan);
+    font-size:14px;
+}
+/* Inicio Relogio */
+#rel{
+    text-align: center;
+    color: var(--Pink);
+    font-weight: bold;
+    font-size: 20px;
+    width: 130px;
+    background-color: var(--background);
+}
+@keyframes animate
+{
+    0%, 10%, 100%
+    {
+        width: 0;
+    }
+    70%, 90%
+    {
+        width: 70%;
+    }
+}
